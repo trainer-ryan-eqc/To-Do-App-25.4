@@ -75,9 +75,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 4042.3914194564845,
-			"y": 1373.732635500548,
-			"lastActivityTimestamp": 1756115219227,
+			"x": 4282.107880877311,
+			"y": 1198.8095705985493,
+			"lastActivityTimestamp": 1756118504988,
 			"meta": {}
 		},
 		{
@@ -1009,9 +1009,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2517.6888183278024,
-			"y": -420.4895419719302,
-			"z": 0.411227736829369,
+			"x": -3248.29139046236,
+			"y": -1005.4576621628233,
+			"z": 1.222336736467408,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2519,8 +2519,8 @@
 			"props": {
 				"color": "black",
 				"size": "xl",
-				"w": 194.78125,
-				"font": "draw",
+				"w": 116.45797518261841,
+				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
 				"scale": 0.7182875161844147,
@@ -3492,8 +3492,8 @@
 			"props": {
 				"color": "black",
 				"size": "xl",
-				"w": 688.03125,
-				"font": "draw",
+				"w": 438.89234856555083,
+				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
 				"scale": 0.7182875161844147,
@@ -4004,8 +4004,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:size": "xl"
+				"tldraw:font": "sans"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -4020,8 +4019,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1687,
-				"h": 966
+				"w": 1366.6666259765625,
+				"h": 379.1666564941406
 			},
 			"insets": [
 				false,
@@ -4036,11 +4035,11 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1,
+			"devicePixelRatio": 1.2000000476837158,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
-			"isChangingStyle": false,
+			"isChangingStyle": true,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
@@ -5200,8 +5199,8 @@
 			"props": {
 				"color": "black",
 				"size": "xl",
-				"w": 184.40625,
-				"font": "draw",
+				"w": 116.04645263973853,
+				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
 				"scale": 0.7182875161844147,
