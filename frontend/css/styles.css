@@ -85,3 +85,59 @@ form a:hover {
 .bg-translucent {
   background-color: #00000063;
 }
+
+.card-header, .card-footer {
+    background-color: var(--primary) !important;
+    padding: 18px 0px;
+}
+
+#priceButton {
+    --containerHeight: 20px;    /* Change height of button*/
+    --containerWidth: 60px;     /* Change width of button*/
+    --container-padding: 2px;   /* Change border width */
+
+    --container-border-radius: calc(var(--containerHeight) / 2);
+    --internal-shadow: inset 0px 0px 5px rgb(0, 0, 0);
+
+    --external-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    --dotHeight: calc(var(--containerHeight) - (var(--container-padding) * 2));
+    --dotWidth: calc(var(--containerWidth) / 2);
+    --dot-border-radius: calc(var(--container-border-radius) - var(--container-padding));
+}
+
+.toggleBox {
+    position: relative;
+    padding: var(--container-padding);
+    height: var(--containerHeight);
+    width: var(--containerWidth);
+    overflow: hidden;
+    background-color: rgb(87, 87, 87);
+    box-shadow: var(--internal-shadow);
+    border-radius: var(--container-border-radius);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.toggleBall {
+    background-color: white;
+    box-shadow: var(--external-shadow);
+    height: var(--dotHeight);
+    width: var(--dotWidth);
+    border-radius: var(--dot-border-radius);
+    transition: 0.2s ease-in-out;
+}
+
+.toggleBall.left {
+    transform: translateX(0px);
+}
+
+.toggleBall.right {
+    transform: translateX(calc(var(--containerWidth) - var(--dotWidth) - (var(--container-padding) * 2)));
+}
+
+#pricingPlans li::before {
+    content: "✓";
+    color: rgb(16, 190, 16);
+    margin-right: 8px;
+}
