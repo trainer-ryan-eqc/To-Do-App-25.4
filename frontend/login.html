@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App | Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <!-- ↓ Navbar ↓ -->
+     
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/logo-icon.svg" alt="Logo" height="50px" width="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <img src="./images/menu-icon.svg" alt="Hamburger Icon" height="40px" width="auto">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="nav-link" href="./login.html">Login</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="nav-link" href="./signup.html">Signup</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2 ms-3 d-lg-block d-none">
+                    <a class="btn btn-secondary" href="./login.html">Login</a>
+                    <a class="btn btn-secondary" href="./signup.html">Signup</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ↑ Navbar ↑ -->
+
+    <!-- ↓ Login Form ↓ -->
+
+    <section class="d-flex justify-content-center align-items-center flex-column bg-img">
+        <div class="bg-translucent p-4 shadow rounded">
+            <h2 class="mb-3 text-white">Login</h2>
+            <form id="loginForm">
+                <input id="email" type="email" placeholder="Email Address" class="mb-3 form-control shadow-sm" required>
+                <input id="password" type="password" placeholder="Password" class="form-control shadow-sm" required>
+                <div class="d-flex justify-content-between align-items-center gap-3 mt-3">
+                    <button type="submit" class="btn btn-secondary shadow-sm">Login</button>
+                    <div>
+                        <a href="./signup.html">Don't have an account yet?</a>
+                        <br>
+                        <a href="./dashboard.html">Try it before signing up</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ↑ Login Form ↑ -->
+
+    <!-- ↓ Footer ↓ -->
+
+    <footer>
+        <div class="container py-5">
+            <div class="d-flex justify-content-between flex-column gap-5 gap-md-0 flex-md-row align-items-center px-3 mb-5">
+                <a href="./index.html">
+                    <img src="./images/logo-icon.svg" alt="Logo" height="120px" width="auto">
+                </a>
+                <div class="col-12 col-sm-8 col-md-7 col-lg-5 col-xl-4">
+                    <h3 class="text-white mb-3 text-center text-md-start">Subscribe to our Newsletter</h3>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-secondary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column gap-3 flex-md-row align-items-center">
+                <a class="nav-link" href="#">Privacy Policy</a>
+                <p class="m-0 d-none d-md-block">|</p>
+                <a class="nav-link" href="#">Terms of Service</a>
+                <p class="m-0 d-none d-md-block">|</p>
+                <p class="m-0">ListMe &COPY; 2025 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ↑ Footer ↑ -->
+
+    <!-- ↓ Scripts ↓ -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
