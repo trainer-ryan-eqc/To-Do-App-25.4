@@ -151,9 +151,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1216.5243755783674,
-			"y": 308.3519088512222,
-			"lastActivityTimestamp": 1755513403495,
+			"x": 776.06824412981,
+			"y": 264.76302669289976,
+			"lastActivityTimestamp": 1756288038457,
 			"meta": {}
 		},
 		{
@@ -3520,9 +3520,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 13.498726999613837,
-			"y": 202.31166348057843,
-			"z": 0.7793933894336931,
+			"x": -67.7537583437277,
+			"y": -22.319813437260848,
+			"z": 1.4725097692199336,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -6109,12 +6109,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:Ed_2lt2seSn8FtN806Pz2",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:Nmkehc97zuql8FQS44NOL"
+				"shape:Ed_2lt2seSn8FtN806Pz2"
 			],
-			"hoveredShapeId": "shape:Nmkehc97zuql8FQS44NOL",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -7393,7 +7393,7 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 113.35826020056017,
+				"w": 180.53046370400608,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -7409,7 +7409,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "localhost:5500"
+									"text": "localhost:5500 → Vercel"
 								}
 							]
 						}
@@ -11310,8 +11310,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1366.6666259765625,
-				"h": 785.8333129882812
+				"w": 1687,
+				"h": 966
 			},
 			"insets": [
 				false,
@@ -11326,7 +11326,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.2000000476837158,
+			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
@@ -14065,7 +14065,7 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 188.109375,
+				"w": 202.54042590746738,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -14081,7 +14081,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "localhost:3000"
+									"text": "localhost:3000 → Render"
 								}
 							]
 						}
