@@ -38,10 +38,10 @@ const premiumPriceAnnually = (premiumPriceMonthly * 12) - ((premiumPriceMonthly 
 const businessPriceAnnually = (businessPriceMonthly * 12) - ((businessPriceMonthly * 12) * discountDecimal).toFixed(0);
 
 // Setting default values (monthly) ↓
-free.innerHTML = `$freePriceMonthly`;
-starter.innerHTML = `$starterPriceMonthly`;
-premium.innerHTML = `$premiumPriceMonthly`;
-business.innerHTML = `$businessPriceMonthly`;
+free.innerHTML = `$${freePriceMonthly}`;
+starter.innerHTML = `$${starterPriceMonthly}`;
+premium.innerHTML = `$${premiumPriceMonthly}`;
+business.innerHTML = `$${businessPriceMonthly}`;
 
 term.forEach(element => {
     element.innerHTML = monthly;
@@ -53,15 +53,15 @@ function priceButtonToggle() {
         buttonBall.classList.remove('left');
         buttonBall.classList.add('right');
 
-        free.innerHTML = `$freePriceAnnually`;
-        starter.innerHTML = `$starterPriceAnnually`;
-        premium.innerHTML = `$premiumPriceAnnually`;
-        business.innerHTML = `$businessPriceAnnually`;
+        free.innerHTML = `$${freePriceAnnually}`;
+        starter.innerHTML = `$${starterPriceAnnually}`;
+        premium.innerHTML = `$${premiumPriceAnnually}`;
+        business.innerHTML = `$${businessPriceAnnually}`;
 
         freeDiscountMessage.innerHTML = "No discount for free plan";
-        premiumDiscountMessage.innerHTML = `discount% off! Save $${calculateDiscount(starterPriceMonthly)}!`;
-        starterDiscountMessage.innerHTML = `discount% off! Save $${calculateDiscount(premiumPriceMonthly)}!`;
-        businessDiscountMessage.innerHTML = `discount% off! Save $${calculateDiscount(businessPriceMonthly)}!`;
+        premiumDiscountMessage.innerHTML = `${discount}% off! Save $${calculateDiscount(starterPriceMonthly)}!`;
+        starterDiscountMessage.innerHTML = `${discount}% off! Save $${calculateDiscount(premiumPriceMonthly)}!`;
+        businessDiscountMessage.innerHTML = `${discount}% off! Save $${calculateDiscount(businessPriceMonthly)}!`;
 
         term.forEach(element => {
             element.innerHTML = annually;
@@ -70,10 +70,10 @@ function priceButtonToggle() {
         buttonBall.classList.remove('right');
         buttonBall.classList.add('left');
 
-        free.innerHTML = `$freePriceMonthly`;
-        starter.innerHTML = `$starterPriceMonthly`;
-        premium.innerHTML = `$premiumPriceMonthly`;
-        business.innerHTML = `$businessPriceMonthly`;
+        free.innerHTML = `$${freePriceMonthly}`;
+        starter.innerHTML = `$${starterPriceMonthly}`;
+        premium.innerHTML = `$${premiumPriceMonthly}`;
+        business.innerHTML = `$${businessPriceMonthly}`;
 
         freeDiscountMessage.innerHTML = ``;
         starterDiscountMessage.innerHTML = ``;
