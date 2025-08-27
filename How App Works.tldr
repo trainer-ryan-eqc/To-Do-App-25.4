@@ -151,9 +151,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 776.06824412981,
-			"y": 264.76302669289976,
-			"lastActivityTimestamp": 1756288038457,
+			"x": 573.2344990165379,
+			"y": 55.74689942421822,
+			"lastActivityTimestamp": 1756290661544,
 			"meta": {}
 		},
 		{
@@ -3520,9 +3520,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -67.7537583437277,
-			"y": -22.319813437260848,
-			"z": 1.4725097692199336,
+			"x": 95.20860841947047,
+			"y": 1.2185865385052637,
+			"z": 1.3868046355594201,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -6109,12 +6109,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:Ed_2lt2seSn8FtN806Pz2",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:Ed_2lt2seSn8FtN806Pz2"
+				"shape:eKla2saXiu3t2xdbv-g-Q"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:W822H9w_icbrhMLqT0tHu",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -6248,24 +6248,6 @@
 				},
 				"snap": "none",
 				"terminal": "start"
-			},
-			"typeName": "binding"
-		},
-		{
-			"meta": {},
-			"id": "binding:jfxo74d8yT1h1rMJT4Dg7",
-			"type": "arrow",
-			"fromId": "shape:eKla2saXiu3t2xdbv-g-Q",
-			"toId": "shape:W822H9w_icbrhMLqT0tHu",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.021875010388496083,
-					"y": 0.24608401020185053
-				},
-				"snap": "none",
-				"terminal": "end"
 			},
 			"typeName": "binding"
 		},
@@ -10913,8 +10895,8 @@
 					"y": -60.67558178489122
 				},
 				"end": {
-					"x": 267.07631001884516,
-					"y": -64.29851238919986
+					"x": 232.03199262589925,
+					"y": -303.01294638627365
 				},
 				"arrowheadStart": "none",
 				"arrowheadEnd": "arrow",
@@ -10940,7 +10922,7 @@
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "a32YK",
+			"index": "a1h1t",
 			"typeName": "shape"
 		},
 		{
@@ -11300,7 +11282,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "grabbing",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -11311,7 +11293,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1687,
-				"h": 966
+				"h": 674
 			},
 			"insets": [
 				false,
