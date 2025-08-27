@@ -23,7 +23,7 @@ const corsOptions = {
 }
 
 app.use(cors(corsOptions)); // Enables use of CORS - * means every domain is now allowed acces to this server to send and receive data - not secure - * is for development only
-
+// app.use(cors("*")); // Use for submitting
 
 // ------------------------- ↓ DATABASE CONNECTION + APP STARTUP ↓ ------------------------
 
