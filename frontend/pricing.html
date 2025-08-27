@@ -49,9 +49,146 @@
 
     <!-- ↓ Hero ↓ -->
 
-    <section class="p-5 d-flex justify-content-center align-items-center flex-column pageNotReady">
-        <h1 class="text-center mb-5">Oops! This page is not ready yet!</h1>
-        <a href="./index.html" class="text-black">Go Home</a>
+    <section class="bg-img py-5">
+        <div class="container px-5 py-4 slideUp">
+            <div id="pricingPlans" class="text-white">
+                <h1 class="display-3 text-center mb-5">Our Plans</h1>
+                <div class="d-flex justify-content-center align-items-center mb-5 gap-3">
+                    <h3>Monthly</h3>
+                    <button id="priceButton" type="button" onclick="priceButtonToggle()" class="toggleBox">
+                        <span id="buttonBall" class="toggleBall left"></span>
+                    </button>
+                    <h3>Annually</h3>
+                </div>
+    
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+    
+                    <!-- Free Plan -->
+                    <div class="col mb-3">
+                        <div class="card h-100 shadow">
+                            <div class="card-header"></div>
+                            <div class="card-body px-4 py-5">
+                                <h2>Free</h2>
+                                <p class="text-muted">1 user</p>
+                                <div class="d-flex align-items-center justify-content-center gap-2">
+                                    <h1 id="freePrice" class="text-center display-3"></h1>
+                                    <p class="term"></p>
+                                </div>
+                                <p id="freeDiscountMessage" class="text-center mt-2 text-muted"></p>
+                                <a href="/frontend/signup.html" class="btn btn-dark text-center w-100 shadow mt-4">Get Started</a>
+                                <hr class="my-4">
+                                <p class="fw-bold mb-4">Inclusions:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">feature 1</li>
+                                    <li class="mb-1">feature 2</li>
+                                    <li class="mb-1">feature 3</li>
+                                    <li class="mb-1">feature 4</li>
+                                    <li class="mb-1">feature 5</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+    
+                    <!-- Starter Plan -->
+                    <div class="col mb-3">
+                        <div class="card h-100 shadow">
+                            <div class="card-header"></div>
+                            <div class="card-body px-4 py-5">
+                                <h2>Starter</h2>
+                                <p class="text-muted">100 users</p>
+                                <div class="d-flex align-items-center justify-content-center gap-2">
+                                    <h1 id="starterPrice" class="text-center display-3"></h1>
+                                    <p class="term"></p>
+                                </div>
+                                <p id="starterDiscountMessage" class="text-center mt-2 text-muted"></p>
+                                <a href="/frontend/signup.html" class="btn btn-dark text-center w-100 shadow mt-4">Start Free Trial</a>
+                                <hr class="my-4">
+                                <p class="fw-bold mb-4">Inclusions:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">feature 1</li>
+                                    <li class="mb-1">feature 2</li>
+                                    <li class="mb-1">feature 3</li>
+                                    <li class="mb-1">feature 4</li>
+                                    <li class="mb-1">feature 5</li>
+                                    <li class="mb-1">feature 6</li>
+                                    <li class="mb-1">feature 7</li>
+                                    <li class="mb-1">feature 8</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+    
+                    <!-- Premium Plan -->
+                    <div class="col mb-3">
+                        <div class="card h-100 shadow">
+                            <div class="card-header"></div>
+                            <div class="card-body px-4 py-5">
+                                <h2>Premium</h2>
+                                <p class="text-muted">Unlimited users</p>
+                                <div class="d-flex align-items-center justify-content-center gap-2">
+                                    <h1 id="premiumPrice" class="text-center display-3"></h1>
+                                    <p class="term"></p>
+                                </div>
+                                <p id="premiumDiscountMessage" class="text-center text-muted mt-2"></p>
+                                <a href="/frontend/signup.html" class="btn btn-dark text-center w-100 shadow mt-4">Start Free Trial</a>
+                                <hr class="my-4">
+                                <p class="fw-bold mb-4">Inclusions:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">feature 1</li>
+                                    <li class="mb-1">feature 2</li>
+                                    <li class="mb-1">feature 3</li>
+                                    <li class="mb-1">feature 4</li>
+                                    <li class="mb-1">feature 5</li>
+                                    <li class="mb-1">feature 6</li>
+                                    <li class="mb-1">feature 7</li>
+                                    <li class="mb-1">feature 8</li>
+                                    <li class="mb-1">feature 9</li>
+                                    <li class="mb-1">feature 10</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+    
+                    <!-- Business Plan -->
+                    <div class="col mb-3">
+                        <div class="card shadow">
+                            <div class="card-header"></div>
+                            <div class="card-body px-4 py-5">
+                                <h2>Business</h2>
+                                <p class="text-muted">Unlimited users</p>
+                                <div class="d-flex align-items-center justify-content-center gap-2">
+                                    <h1 id="businessPrice" class="text-center display-3"></h1>
+                                    <p class="term"></p>
+                                </div>
+                                <p id="businessDiscountMessage" class="text-center text-muted mt-2"></p>
+                                <a href="/frontend/signup.html" class="btn btn-dark text-center w-100 shadow mt-4">Start Free Trial</a>
+                                <hr class="my-4">
+                                <p class="fw-bold mb-4">Inclusions:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">feature 1</li>
+                                    <li class="mb-1">feature 2</li>
+                                    <li class="mb-1">feature 3</li>
+                                    <li class="mb-1">feature 4</li>
+                                    <li class="mb-1">feature 5</li>
+                                    <li class="mb-1">feature 6</li>
+                                    <li class="mb-1">feature 7</li>
+                                    <li class="mb-1">feature 8</li>
+                                    <li class="mb-1">feature 9</li>
+                                    <li class="mb-1">feature 10</li>
+                                    <li class="mb-1">feature 11</li>
+                                    <li class="mb-1">feature 12</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ↑ Hero ↑ -->
